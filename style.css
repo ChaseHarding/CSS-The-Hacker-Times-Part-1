@@ -60,4 +60,21 @@ main img {
 
 main p {
     text-align: justify;
+    border-bottom: 1px solid #777;
+    padding-bottom: 2em;
 }
+
+
+.more-articles {
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.more-articles section {
+    display: inline-block;
+    /* border: 2px solid green; */
+    width: 40%;
+    margin-inline: 2em;
+    text-align: justify;
+}
+
