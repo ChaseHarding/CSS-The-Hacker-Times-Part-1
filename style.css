@@ -67,14 +67,27 @@ main p {
 
 .more-articles {
     display: inline-block;
-    /* border: 2px solid red; */
 }
 
 .more-articles section {
     display: inline-block;
-    /* border: 2px solid green; */
     width: 40%;
     margin-inline: 2em;
     text-align: justify;
+}
+
+.bonus-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; 
+}
+
+.grid-item {
+    width: 100%;
+    text-align: justify;
+}
+
+.grid-item img {
+    width: 100%;
 }
 
