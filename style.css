@@ -11,7 +11,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 4px 4px darkgray;
     padding: 2em 3em;
-    margin: 1em 32em;
+    margin: auto;
 }
 
 header h1 {
@@ -35,6 +35,11 @@ h5{
 nav {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
+    position: sticky;
+    top: 1em;
+    left: 0;
+    background: white;
+
 }
 
 ul {
