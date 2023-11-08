@@ -36,7 +36,7 @@ nav {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
     position: sticky;
-    top: 1em;
+    top: 0;
     left: 0;
     background: #eee;
 
